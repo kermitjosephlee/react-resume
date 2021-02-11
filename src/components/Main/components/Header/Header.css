@@ -1,0 +1,22 @@
+.headshot {
+  border-radius: 50%;
+  margin: 0 20px;
+}
+
+.name-container {
+  font-weight: 700;
+  font-style: italic;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.name {
+  font-size: 40px;
+}
+
+.label {
+  font-size: 20px;
+}

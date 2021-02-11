@@ -1,0 +1,22 @@
+.section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 90%;
+  padding: 10px;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  min-width: 300px;
+  margin-right: 20px;
+}
+
+.title {
+  font-size: 22pt;
+  font-style: 100;
+  color: #888;
+}

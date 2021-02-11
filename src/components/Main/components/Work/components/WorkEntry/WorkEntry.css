@@ -1,0 +1,39 @@
+.work-entry-container {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.top-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.middle-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.website {
+  color: #000;
+}
+
+.list-item {
+  text-align: left;
+  font-size: 10pt;
+}
+
+.company {
+  font-size: 16pt;
+  font-weight: 700;
+}
+
+.position {
+  font-size: 14pt;
+  font-weight: 500;
+}

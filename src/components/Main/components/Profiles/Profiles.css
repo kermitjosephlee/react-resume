@@ -1,0 +1,16 @@
+.profiles-container {
+  display: flex;
+  flex-direction: column;
+
+  line-height: 1.7em;
+}
+
+.profile-container {
+  display: flex;
+  margin-right: 10px;
+}
+
+.profile-title {
+  margin-right: 5px;
+  font-style: italic;
+}
