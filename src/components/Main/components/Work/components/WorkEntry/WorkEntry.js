@@ -1,7 +1,8 @@
-import React from "react"
+import React, { useState } from "react"
 import "./WorkEntry.css"
 
 export function WorkEntry ({workEntry}){
+  const [isUnixTime, setIsUnitTime] = useState(false)
   const { company, position, website, startDate, endDate, summary, highlights } = workEntry
   return (
     <div className="work-entry-container">
