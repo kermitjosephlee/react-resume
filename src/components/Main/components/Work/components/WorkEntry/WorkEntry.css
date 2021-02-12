@@ -38,6 +38,10 @@
   font-weight: 500;
 }
 
+.interval {
+  cursor: pointer;
+}
+
 @media (max-width: 768px) {
   .work-entry-container {
     width: 85vw;

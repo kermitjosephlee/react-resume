@@ -10,7 +10,7 @@ export function Interests ({ interests }){
       </div>
       <div>
         {interests[0].keywords.map(interest => (
-          <span className="interests-list-item">
+          <span key={interest} className="interests-list-item">
             {interest}
           </span>
         ))}

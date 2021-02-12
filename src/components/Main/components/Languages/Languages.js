@@ -8,11 +8,11 @@ export function Languages ({ languages }){
       <div className="title-container">
         <div className="title">Languages</div>
       </div>
-      <div>{languages.map((language) => (
-        <>
-          <div>{language.language} - {language.fluency}</div>
-        </>
-      ))}</div>
+      <div>
+        {languages.map((language) => (
+          <div key={language.language}>{language.language} - {language.fluency}</div>
+        ))}
+      </div>
     </div>
   )
 }

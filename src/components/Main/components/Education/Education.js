@@ -12,7 +12,7 @@ export function Education ({education}) {
         </div>
       </div>
       <div className="education-entries">
-        {education.map((educationEntry) => <EducationEntry educationEntry={educationEntry} />)}
+        {education.map((educationEntry) => <EducationEntry key={educationEntry.institution} educationEntry={educationEntry} />)}
       </div>
     </div>
   )
