@@ -11,7 +11,7 @@
   flex-direction: row;
   align-items: flex-end;
   justify-content: flex-end;
-  min-width: 300px;
+  min-width: 18vw;
   margin-right: 20px;
 }
 
@@ -19,4 +19,36 @@
   font-size: 22pt;
   font-style: 100;
   color: #888;
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 680px) {
+  .section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+  .title-container {
+    justify-content: center;
+    min-width: 0;
+    margin-right: 0;
+  }
+  .title {
+    font-size: 16pt;
+  }
 }

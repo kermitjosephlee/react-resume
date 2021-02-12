@@ -9,6 +9,16 @@
 }
 
 .contact-detail {
-  font-size: 16px;
   line-height: 1.7em;
+}
+
+@media (max-width: 480px) {
+  .contact-container {
+    align-items: center;
+    font-size: 14pt;
+  }
+
+  .contact-detail {
+    font-size: 10pt;
+  }
 }

@@ -1,6 +1,7 @@
 import React from "react"
 import "./About.css"
 import "../Section/Section.css"
+import "../Work/components/WorkEntry/WorkEntry.css"
 
 export function About ({basics}){
   return (
@@ -10,8 +11,10 @@ export function About ({basics}){
           About
         </div>
       </div>
-      <div className="summary">
-        {basics.summary}
+      <div className="work-entries">
+        <div className="work-entry-container summary">
+          {basics.summary}
+        </div>
       </div>
     </div>
   )

@@ -1,5 +1,5 @@
 .work-entry-container {
-  width: 100%;
+  width: 65vw;
   padding: 20px 0;
 }
 
@@ -36,4 +36,79 @@
 .position {
   font-size: 14pt;
   font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .work-entry-container {
+    width: 85vw;
+  }
+
+  .top-container {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 5%;
+  }
+
+  .middle-container {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 5%;
+  }
+
+  .list-item {
+    line-height: 1.5em;
+  }
+
+  .company {
+    font-size: 16pt;
+    font-weight: 500;
+    padding-bottom: 5px;
+  }
+
+  .position {
+    font-size: 14pt;
+    font-weight: 400;
+    padding-bottom: 5px;
+  }
+
+  .website {
+    font-size: 14pt;
+    padding-bottom: 5px;
+  }
+}
+
+/* @media (max-width: 680px) {
+  .position {
+    font-size: 12pt;
+  }
+} */
+
+@media (max-width: 480px) {
+  .top-container {
+    align-items: center;
+    padding-left: 0;
+  }
+
+  .middle-container {
+    align-items: center;
+    padding-left: 0;
+  }
+
+  .list-item {
+    font-size: 9pt;
+  }
+
+  .company {
+    font-size: 14pt;
+  }
+
+  .position {
+    font-size: 12pt;
+  }
+
+  .website {
+    font-size: 11pt;
+  }
 }

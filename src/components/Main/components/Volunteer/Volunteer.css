@@ -4,3 +4,9 @@
   align-items: flex-start;
   width: 100%;
 }
+
+@media (max-width: 480px) {
+  .volunteer-entries {
+    align-items: center;
+  }
+}

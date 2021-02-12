@@ -4,3 +4,9 @@
   align-items: flex-start;
   width: 100%;
 }
+
+@media (max-width: 480px) {
+  .education-entries {
+    align-items: center;
+  }
+}
