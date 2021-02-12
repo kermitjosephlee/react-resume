@@ -3,3 +3,11 @@
   flex-direction: column;
   align-items: flex-start;
 }
+
+.show-more {
+  border: 5px solid #888;
+  border-radius: 5px;
+  padding: 7px;
+  cursor: pointer;
+  background-color: transparent;
+}

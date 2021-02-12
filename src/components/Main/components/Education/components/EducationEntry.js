@@ -1,5 +1,6 @@
 import React, {useState} from "react"
-import { getUnixTime, format } from "date-fns"
+import getUnixTime from "date-fns/getUnixTime"
+import format from "date-fns/format"
 import "../../Work/components/WorkEntry/WorkEntry.css"
 
 export function EducationEntry ({educationEntry}){

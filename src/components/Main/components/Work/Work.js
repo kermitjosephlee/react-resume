@@ -1,9 +1,10 @@
-import React from "react"
+import React, { useState } from "react"
 import { WorkEntry } from "./components"
 import "./Work.css"
 import "../Section/Section.css"
 
 export function Work ({work}){
+  const [codeOnly, setCodeOnly] = useState(true)
   return (
     <div className="section">
       <div className="title-container">
@@ -13,11 +14,14 @@ export function Work ({work}){
       </div>
       <div className="work-entries">
         {work.map((workEntry) => {
-          if (!workEntry.isCodeRelated) return null
+          if (codeOnly && !workEntry.isCodeRelated) return null
           return (
             <WorkEntry key={workEntry.company} workEntry={workEntry}/>
           )
         })}
+        {codeOnly && <div className="show-more" onClick={() => setCodeOnly(!codeOnly)}>
+          Show More
+        </div>}
       </div>
     </div>
   )
