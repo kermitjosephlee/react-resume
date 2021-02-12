@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import './Main.css'
 import { 
   Header, 
@@ -15,11 +15,12 @@ import {
 import { resume } from "../common"
 
 export default function Main (){
+  const [isDarkMode, setIsDarkMode] = useState(false)
   const { basics, work, education, volunteer, skills, languages, interests } = resume
 
   return (
-    <div className="main">
-      <Header basics={basics} />
+    <div className={isDarkMode ? "main dark" : "main"}>
+      <Header basics={basics} isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
       <Contact basics={basics} />
       <About basics={basics} />
       <Profiles basics={basics} />

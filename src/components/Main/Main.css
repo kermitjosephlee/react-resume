@@ -1,9 +1,16 @@
 .main {
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   font-family: "IBM Plex Mono", "Courier New", Courier, monospace;
 
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  background-color: #fff;
+}
+
+.dark {
+  background-color: #222;
+  color: #41ff00;
 }
