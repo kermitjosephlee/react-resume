@@ -37,8 +37,8 @@ const RESUME = {
           "summary": "Online Shopping cashback web and mobile app focused on team and organizational fundraising.",
           "highlights": [
               "Working on building rich feature sets in ever expanding software suite of applicaitons",
-              "Building front-ends in React/NextJS, ReactNative, & Ruby on Rails",
-              "Learned to build supporting API with GraphQL on Rails"
+              "Increased player participation by 100% by rebuilding player management pages",
+              "Built full feature sets for both web and mobile with React and React Native through GraphQL on Ruby on Rails"
           ]
       },
       {
@@ -195,18 +195,19 @@ const RESUME = {
     "name": "Web Development",
     "level": "Intermediate",
     "keywords": [
-      "HTML",
-      "CSS",
-      "Javascript",
-      "Typescript",
-      "NodeJS",
       "React",
       "ReactNative",
+      "GraphQL/Apollo",
+      "Typescript",
+      "Javascript",
+      "Ruby on Rails",
+      "Docker",
+      "Git",
+      "HTML",
+      "CSS",
+      "NodeJS",
       "Sass",
       "BootStrap",
-      "Git",
-      "Docker",
-      "Ruby on Rails"
     ]
   },
   "languages": [{
