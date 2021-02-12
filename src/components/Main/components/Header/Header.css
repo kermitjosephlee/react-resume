@@ -1,6 +1,13 @@
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 85vw;
+  padding: 10px;
+}
+
 .headshot {
   border-radius: 50%;
-  margin: 0 20px;
   cursor: pointer;
 }
 
@@ -26,6 +33,7 @@
   .name {
     font-size: 24pt;
   }
+
   .label {
     font-size: 14pt;
     font-weight: 500;
@@ -45,6 +53,7 @@
   .name {
     font-size: 16pt;
   }
+
   .label {
     font-size: 12pt;
   }

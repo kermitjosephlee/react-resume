@@ -1,8 +1,8 @@
 .section {
   display: flex;
   justify-content: flex-start;
-  align-items: center;
-  width: 90%;
+  align-items: baseline;
+  width: 85vw;
   padding: 10px;
 }
 
@@ -11,12 +11,12 @@
   flex-direction: row;
   align-items: flex-end;
   justify-content: flex-end;
-  min-width: 18vw;
+  min-width: 15vw;
   margin-right: 20px;
 }
 
 .title {
-  font-size: 22pt;
+  font-size: 20pt;
   font-style: 100;
   color: #888;
 }
