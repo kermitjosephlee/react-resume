@@ -20,5 +20,7 @@
 
   .contact-detail {
     font-size: 10pt;
+    align-items: center;
+    text-align: center;
   }
 }
