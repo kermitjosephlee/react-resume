@@ -29,7 +29,7 @@ const RESUME = {
   "work": [
       {
           "company": "FlipGive.com",
-          "position": "Front-End React & React Native Developer",
+          "position": "React & React Native Developer",
           "website": "https://www.flipgive.com",
           "startDate": "2019-09-30",
           "endDate": "2021-02-22",
@@ -56,7 +56,7 @@ const RESUME = {
       },
       {
         "company": "PlayLine.com",
-        "position": "Front-End React Web Developer",
+        "position": "React & React Native Developer",
         "website": "https://playline.com",
         "startDate": "2019-01-15",
         "endDate": "2019-09-23",
@@ -69,7 +69,7 @@ const RESUME = {
       },
       {
         "company": "Freelance Contractor",
-        "position": "Front-End React Web Developer",
+        "position": "React Web Developer",
         "startDate": "2018-10-01",
         "endDate": "2018-12-30",
         "isCodeRelated": true,
