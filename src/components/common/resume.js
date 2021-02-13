@@ -5,7 +5,7 @@ const RESUME = {
     "picture": "https://avatars.githubusercontent.com/u/37561135?s=400&u=51704ccfc708e3b25c4fa2a05809df0cda88e5a3&v=4",
     "email": "kermitjosephlee@gmail.com",
     "phone": "(416) 799-1791",
-    "website": "https://www.kjlee.ca",
+    "website": "http://www.kjlee.ca",
     "summary": "A naturally curious developer, Joe made the transition from cooking in fine dining restaurants in Montreal and Boston to building better web and mobile integrated apps and learning to be a better coder.  You can find him in his offline time playing basketball, riding his bike, and fiddling with his sous-vide cooker.",
     "location": {
       "address": "116 Lisgar St.",
