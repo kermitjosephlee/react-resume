@@ -11,13 +11,10 @@ export function Skills ({skills}){
         </div>
       </div>
       <div>
-        {/* <div>
-          {skills.name} - {skills.level}
-        </div> */}
-        <ul className="skills-list-item">
+        <ul className="skills-list">
           {skills.keywords.map(skill => {
             return(
-              <li key={skill}>
+              <li key={skill} className="skills-list-item">
                 {skill}
               </li>
             )

@@ -1,4 +1,12 @@
 .skills-list-item {
-  font-size: 14px;
+  font-size: 14pt;
   text-align: left;
+  line-height: 1.7em;
+}
+
+@media (max-width: 480px) {
+  .skills-list-item {
+    font-size: 12pt;
+    line-height: 1.5em;
+  }
 }
