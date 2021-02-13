@@ -1,16 +1,10 @@
 import React, { useState } from "react"
-import getUnixTime from "date-fns/getUnixTime"
-import format from "date-fns/format"
+import { intervalMaker } from "../../../../../common/intervalMaker"
 import "../../../Work/components/WorkEntry/WorkEntry.css"
 
 export function VolunteerEntry({ volunteerEntry }) {
   const [isUnixTime, setIsUnitTime] = useState(false)
   const { organization, position, website, startDate, endDate, summary } = volunteerEntry
-  const dateFormat = "MMM yyyy"
-  const start = new Date(startDate.replace("-", ", "))
-  const end = new Date(endDate.replace("-", ", "))
-  const startTime = isUnixTime ? getUnixTime(start) : format(start, dateFormat)
-  const endTime = isUnixTime ? getUnixTime(end) : format(end, dateFormat)
 
   return (
     <div className="work-entry-container">
@@ -25,7 +19,7 @@ export function VolunteerEntry({ volunteerEntry }) {
           {!!website && <a href={website}>{website}</a>}
         </div>  
         <div className="interval" onClick={() => setIsUnitTime(!isUnixTime)}>
-          {startTime} - {endTime}
+          {intervalMaker(startDate, endDate, isUnixTime)}
         </div>
       </div>
       <ul className="bottom-container">
