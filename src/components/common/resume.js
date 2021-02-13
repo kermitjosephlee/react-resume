@@ -36,7 +36,7 @@ const RESUME = {
           "isCodeRelated": true,         
           "summary": "Online Shopping cashback web and mobile app focused on team and organizational fundraising.",
           "highlights": [
-              "Working on building rich feature sets in ever expanding software suite of applicaitons",
+              "Working on building rich feature sets in ever expanding software suite of applications",
               "Increased player participation by 100% by rebuilding player management pages",
               "Built full feature sets for both web and mobile with React and React Native through GraphQL on Ruby on Rails"
           ]
