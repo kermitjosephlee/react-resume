@@ -8,7 +8,7 @@ export function Switcher ({showResume, setShowResume}){
       <div className="title-container">
         <div className="title">OnClick</div>
       </div>
-      <div className="switcher" onClick={() => setShowResume(!showResume)}>
+      <div className="switcher" onClick={() =>  setShowResume(!showResume)}>
         {showResume ? `() => showCaseStudy()` : `() => showResume()`}
       </div>
     </div>

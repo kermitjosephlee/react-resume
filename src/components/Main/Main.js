@@ -21,13 +21,17 @@ export default function Main (){
   const [isDarkMode, setIsDarkMode] = useState(false)
   const [isJson, setIsJson] = useState(false)
 
+  const showJson = () => {
+    return showResume ? setIsJson(!isJson) : null
+  }
+
   const { basics, work, education, volunteer, skills, languages, interests } = resume
 
   return (
     <div className={isDarkMode ? "main dark" : "main"}>
-          <Header basics={basics} isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} isJson={isJson} setIsJson={setIsJson} />
-          <Switcher showResume={showResume} setShowResume={setShowResume} />
-      {!isJson && showResume ? (
+          <Header basics={basics} isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} showJson={showJson} />
+      {!isJson && <Switcher showResume={showResume} setShowResume={setShowResume} showJson={showJson} />}
+      {!isJson && showResume && (
         <>
           <Contact basics={basics} />
           <About basics={basics} />
@@ -39,9 +43,8 @@ export default function Main (){
           <Languages languages={languages} />
           <Interests interests={interests} />
         </>
-      ) : (
-        <CaseStudy />
-      )}
+      )} 
+      {!showResume && <CaseStudy />}
       {isJson && <div className="pre"><pre>{JSON.stringify(resume, null, 2)}</pre></div>}
     </div>
   )
