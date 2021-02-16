@@ -27,7 +27,7 @@ export default function Main (){
           <Contact basics={basics} />
           <About basics={basics} />
           <Profiles basics={basics} />
-          <Work work={work} />
+          <Work work={work} isDarkMode={isDarkMode}/>
           <Education education={education} />
           <Volunteer volunteer={volunteer} />
           <Skills skills={skills} />

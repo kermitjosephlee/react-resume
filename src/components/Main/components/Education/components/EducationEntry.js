@@ -13,7 +13,7 @@ export function EducationEntry ({educationEntry}){
         <div className="position">{area}</div>
       </div>
       <div className="middle-container">
-      <div className="website">
+        <div className="website">
           {studyType}
         </div>       
         <div className="interval" onClick={() => setIsUnitTime(!isUnixTime)}>

@@ -12,6 +12,14 @@
   background-color: transparent;
 }
 
+.show-more-dark {
+  border: 5px solid #41ff00;
+  border-radius: 5px;
+  padding: 7px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
 @media (max-width: 768px) {
   .show-more {
     align-self: center;

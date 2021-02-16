@@ -3,7 +3,7 @@ import { WorkEntry } from "./components"
 import "./Work.css"
 import "../Section/Section.css"
 
-export function Work ({work}){
+export function Work ({work, isDarkMode}){
   const [codeOnly, setCodeOnly] = useState(true)
   return (
     <div className="section">
@@ -19,7 +19,7 @@ export function Work ({work}){
             <WorkEntry key={workEntry.company} workEntry={workEntry}/>
           )
         })}
-        {codeOnly && <div className="show-more" onClick={() => setCodeOnly(!codeOnly)}>
+        {codeOnly && <div className={isDarkMode ? "show-more-dark" : "show-more"} onClick={() => setCodeOnly(!codeOnly)}>
           Show More
         </div>}
       </div>
