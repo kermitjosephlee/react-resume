@@ -18,3 +18,10 @@
 .pre {
   width: 100%;
 }
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
+  font-weight: 500;
+}
