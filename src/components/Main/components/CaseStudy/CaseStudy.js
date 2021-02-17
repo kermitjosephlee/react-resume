@@ -2,11 +2,12 @@ import React from "react"
 import ReactMarkdown from "react-markdown"
 import "../Section/Section.css"
 import "./CaseStudy.css"
-import { paginationCaseStudy } from "./paginationCaseStudy"
+import { resume } from "../../../common"
 
 
 
 export function CaseStudy (){
+  const paginationCaseStudy = resume.caseStudy[0].paginatationCaseStudy
   return (
     <div className="section">
       <div className="title-container">
