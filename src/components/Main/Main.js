@@ -1,5 +1,4 @@
 import React, { useState } from "react"
-import './Main.css'
 import { 
   About, 
   CaseStudy,
@@ -15,6 +14,7 @@ import {
   Work, 
 } from "./components"
 import { resume } from "../common"
+import './Main.css'
 
 export default function Main (){
   const [showResume, setShowResume] = useState(true) 
