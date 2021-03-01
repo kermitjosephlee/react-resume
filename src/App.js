@@ -1,7 +1,7 @@
-import { Main } from "./components"
+import { Main } from "./components";
 
 function App() {
-  return <Main />
+	return <Main />;
 }
 
 export default App;

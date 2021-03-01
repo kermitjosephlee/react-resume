@@ -1,18 +1,20 @@
-import React from "react"
-import "./Languages.css"
-import "../Section/Section.css"
+import React from "react";
+import "./Languages.css";
+import "../Section/Section.css";
 
-export function Languages ({ languages }){
-  return (
-    <div className="section">
-      <div className="title-container">
-        <div className="title">Languages</div>
-      </div>
-      <div>
-        {languages.map((language) => (
-          <div key={language.language}>{language.language} - {language.fluency}</div>
-        ))}
-      </div>
-    </div>
-  )
+export function Languages({ languages }) {
+	return (
+		<div className="section">
+			<div className="title-container">
+				<div className="title">Languages</div>
+			</div>
+			<div>
+				{languages.map((language) => (
+					<div key={language.language}>
+						{language.language} - {language.fluency}
+					</div>
+				))}
+			</div>
+		</div>
+	);
 }
