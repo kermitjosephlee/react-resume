@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
+import { ResumeContext } from "../../../contexts/ResumeContext";
 import "./Languages.css";
 import "../Section/Section.css";
 
-export function Languages({ languages }) {
+export function Languages() {
+	const { languages } = useContext(ResumeContext);
+
 	return (
 		<div className="section">
 			<div className="title-container">

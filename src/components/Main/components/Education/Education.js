@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
+import { ResumeContext } from "../../../contexts/ResumeContext";
 import { EducationEntry } from "./components";
 import "./Education.css";
 import "../Section/Section.css";
 
-export function Education({ education }) {
+export function Education() {
+	const { education } = useContext(ResumeContext);
+
 	return (
 		<div className="section">
 			<div className="title-container">

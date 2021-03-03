@@ -1,1 +1,2 @@
-export * from "./DarkContext"
+export * from "./DarkContext";
+export * from "./ResumeContext";

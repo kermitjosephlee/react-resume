@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
+import { ResumeContext } from "../../../contexts/ResumeContext";
 import "./Volunteer.css";
 import "../Section/Section.css";
 import { VolunteerEntry } from "./components";
 
-export function Volunteer({ volunteer }) {
+export function Volunteer() {
+	const { volunteer } = useContext(ResumeContext);
 	return (
 		<div className="section">
 			<div className="title-container">

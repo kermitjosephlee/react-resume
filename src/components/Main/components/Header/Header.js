@@ -1,11 +1,14 @@
 import React, { useContext } from "react";
 import { DarkContext } from "../../../contexts/DarkContext";
+import { ResumeContext } from "../../../contexts/ResumeContext";
 import "./Header.css";
 import "../Section/Section.css";
 
-export function Header({ basics, showJson }) {
+export function Header({ showJson }) {
 	const { isDarkMode, setIsDarkMode } = useContext(DarkContext);
-	const { name, label } = basics;
+	const {
+		basics: { name, label, picture },
+	} = useContext(ResumeContext);
 
 	return (
 		<div className="header">
@@ -15,7 +18,7 @@ export function Header({ basics, showJson }) {
 			>
 				<img
 					className="headshot"
-					src={basics.picture}
+					src={picture}
 					alt="joe's headshot"
 					width="100"
 					height="100"

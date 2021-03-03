@@ -1,11 +1,14 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
+import { ResumeContext } from "../../../contexts/ResumeContext";
 import { DarkContext } from "../../../contexts/DarkContext";
 import { WorkEntry } from "./components";
 import "./Work.css";
 import "../Section/Section.css";
 
-export function Work({ work }) {
+export function Work() {
 	const [codeOnly, setCodeOnly] = useState(true);
+	const { work } = useContext(ResumeContext);
+
 	return (
 		<DarkContext.Consumer>
 			{({ isDarkMode }) => {

@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
+import { ResumeContext } from "../../../contexts/ResumeContext";
 import "./Contact.css";
 import "../Section/Section.css";
 
-export function Contact({ basics }) {
-	const { phone, website } = basics;
+export function Contact() {
+	const {
+		basics: { phone, website },
+	} = useContext(ResumeContext);
 
 	return (
 		<div className="section">

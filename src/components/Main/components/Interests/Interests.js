@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
+import { ResumeContext } from "../../../contexts/ResumeContext";
 import "./Interests.css";
 import "../Section/Section.css";
 
-export function Interests({ interests }) {
+export function Interests() {
+	const { interests } = useContext(ResumeContext);
+
 	return (
 		<div className="section">
 			<div className="title-container">
