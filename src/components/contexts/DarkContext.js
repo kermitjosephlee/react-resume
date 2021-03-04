@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export const DarkContext = React.createContext(false);
+export const DarkContext = React.createContext(null);
 
 export function DarkProvider(props) {
 	const [isDarkMode, setIsDarkMode] = useState(false);
