@@ -20,3 +20,32 @@
 .project-website {
 	padding-top: 5px;
 }
+
+@media (max-width: 480px) {
+	.stack-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.stack-summary {
+		padding-top: 5px;
+		font-size: 11pt;
+		text-align: center;
+	}
+
+	.stack-list {
+		display: flex;
+		padding-top: 5px;
+	}
+
+	.stack-item {
+		padding-right: 10px;
+		font-size: 10pt;
+	}
+
+	.project-website {
+		padding: 5px 15px;
+		font-size: 9pt;
+	}
+}
