@@ -72,7 +72,7 @@ const RESUME = {
 			highlights: [
 				"Working on building rich feature sets in ever expanding software suite of applications",
 				"Increased player participation by 100% by rebuilding player management pages",
-				"Built full feature sets for both web and mobile with Typescript React and React Native through Apollo GraphQL on Ruby on Rails",
+				"Built full feature sets for both web and mobile with Typescript React and React Native through Apollo GraphQL on Ruby on Rails developed in a dev environment built on Docker",
 			],
 		},
 		{
