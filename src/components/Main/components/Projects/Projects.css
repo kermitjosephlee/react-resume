@@ -1,0 +1,22 @@
+.stack-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.stack-summary {
+	padding-top: 5px;
+	font-size: 11pt;
+}
+
+.stack-list {
+	display: flex;
+	padding-top: 5px;
+}
+
+.stack-item {
+	padding-right: 10px;
+}
+
+.project-website {
+	padding-top: 5px;
+}

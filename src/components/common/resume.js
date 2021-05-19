@@ -41,6 +41,8 @@ const RESUME = {
 			highlights: [
 				"Collaborated with design team to improve UX of onboarding features",
 				"Built preliminary feature sets for web with React with Mocha and Cypress testing suites",
+				"Responsible for bringing designs to life using React, Shopify/Polaris and connecting to REST Node API",
+				"Stack: NodeJS, React, Typescript, Polaris",
 			],
 		},
 
@@ -55,6 +57,7 @@ const RESUME = {
 			highlights: [
 				"Kept grounded by fundamentals and giving back to new coders",
 				"Ability to walk through novice code, debug, and explain its workings",
+				"Curriculum includes NodeJS/Express, jQuery, React, SQL",
 			],
 		},
 		{
@@ -69,7 +72,7 @@ const RESUME = {
 			highlights: [
 				"Working on building rich feature sets in ever expanding software suite of applications",
 				"Increased player participation by 100% by rebuilding player management pages",
-				"Built full feature sets for both web and mobile with React and React Native through GraphQL on Ruby on Rails",
+				"Built full feature sets for both web and mobile with Typescript React and React Native through Apollo GraphQL on Ruby on Rails",
 			],
 		},
 		{
@@ -78,7 +81,7 @@ const RESUME = {
 			website: "https://playline.com",
 			startDate: "2019-01-15",
 			endDate: "2019-09-23",
-			isCodeRelated: true,
+			isCodeRelated: false,
 			summary:
 				"Sports Gaming & Entertainment Website founded by UFC Champion Michael Bisping and NBA All-Star Roy Hibbert",
 			highlights: [
@@ -92,7 +95,7 @@ const RESUME = {
 			position: "React Web Developer",
 			startDate: "2018-10-01",
 			endDate: "2018-12-30",
-			isCodeRelated: true,
+			isCodeRelated: false,
 			summary: "Proprietary Tax Law Recertification Web App",
 			highlights: ["Built in React, Pose, Phoenix/Elixir"],
 		},
@@ -164,6 +167,29 @@ const RESUME = {
 			isCodeRelated: false,
 		},
 	],
+	projects: [
+		{
+			name: "Diplo",
+			summary: "An online version of the board game Diplomacy - still a WIP",
+			stack: ["NodeJS", "Mocha", "Chai", "(Postgres)", "(React)"],
+			repoURL: "https://github.com/kermitjosephlee/diplo",
+		},
+		{
+			name: "PitCrew",
+			summary:
+				"Uber for bike repairs - a web app for charity riders to get help where and when they need it",
+			stack: ["React", "NodeJS", "Postgres"],
+			repoURL: "https://github.com/kermitjosephlee/pitcrew",
+		},
+		{
+			name: "react-resume",
+			summary:
+				"An online personal resume written in React and deployed with Netlify",
+			stack: ["React"],
+			repoURL: "https://github.com/kermitjosephlee/react-resume",
+		},
+	],
+
 	volunteer: [
 		{
 			organization: "Bike Sauce",

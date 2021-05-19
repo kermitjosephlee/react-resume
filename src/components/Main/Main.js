@@ -11,6 +11,7 @@ import {
 	Languages,
 	Interests,
 	Profiles,
+	Projects,
 	Skills,
 	Switcher,
 	Volunteer,
@@ -44,6 +45,7 @@ export default function Main() {
 					<About />
 					<Profiles />
 					<Work />
+					<Projects />
 					<Education />
 					<Volunteer />
 					<Skills />
