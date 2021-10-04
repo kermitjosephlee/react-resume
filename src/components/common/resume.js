@@ -31,11 +31,26 @@ const RESUME = {
 	},
 	work: [
 		{
+			company: "FlipGive.com",
+			position: "React & React Native Developer",
+			website: "https://www.flipgive.com",
+			startDate: `${new Date(2021, 6, 15)}`,
+			endDate: `${new Date()}`,
+			isCodeRelated: true,
+			summary:
+				"Online Shopping cashback web and mobile app focused on team and organizational fundraising.",
+			highlights: [
+				"Working on building rich feature sets in ever expanding software suite of applications",
+				"Increased player participation by 100% by rebuilding player management pages",
+				"Built full feature sets for both web and mobile with Typescript React and React Native through Apollo GraphQL on Ruby on Rails developed in a dev environment built on Docker",
+			],
+		},
+		{
 			company: "Knit People",
 			position: "Front-End Developer",
 			website: "https://www.knitpeople.com",
 			startDate: `${new Date(2021, 2, 15)}`,
-			endDate: `${new Date()}`,
+			endDate: `${new Date(2021, 6, 1)}`,
 			isCodeRelated: true,
 			summary: "Payroll and Human Resources SaaS company.",
 			highlights: [
