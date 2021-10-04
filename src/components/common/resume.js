@@ -34,7 +34,7 @@ const RESUME = {
 			company: "FlipGive.com",
 			position: "React & React Native Developer",
 			website: "https://www.flipgive.com",
-			startDate: `${new Date(2021, 6, 15)}`,
+			startDate: `${new Date(2021, 5, 15)}`,
 			endDate: `${new Date()}`,
 			isCodeRelated: true,
 			summary:
@@ -50,7 +50,7 @@ const RESUME = {
 			position: "Front-End Developer",
 			website: "https://www.knitpeople.com",
 			startDate: `${new Date(2021, 2, 15)}`,
-			endDate: `${new Date(2021, 6, 1)}`,
+			endDate: `${new Date(2021, 5, 1)}`,
 			isCodeRelated: true,
 			summary: "Payroll and Human Resources SaaS company.",
 			highlights: [
