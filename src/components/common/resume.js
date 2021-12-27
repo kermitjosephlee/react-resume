@@ -6,7 +6,7 @@ const RESUME = {
 			"https://avatars.githubusercontent.com/u/37561135?s=400&u=51704ccfc708e3b25c4fa2a05809df0cda88e5a3&v=4",
 		email: "kermitjosephlee@gmail.com",
 		phone: "(416) 799-1791",
-		website: "http://www.kjlee.ca",
+		website: "https://www.kjlee.ca",
 		summary:
 			"A naturally curious developer, Joe made the transition from cooking in fine dining restaurants in Montreal and Boston to building better web and mobile integrated apps and learning to be a better coder.  You can find him in his offline time playing basketball, riding his bike, and fiddling with his sous-vide cooker.",
 		location: {
@@ -31,11 +31,24 @@ const RESUME = {
 	},
 	work: [
 		{
+			company: "GoodLabs Studio",
+			position: "Front-End Developer",
+			website: "https://www.goodlabs.studio",
+			startDate: `${new Date(2021, 11, 24)}`,
+			endDate: `${new Date()}`,
+			isCodeRelated: true,
+			summary:
+				"Making websites look real nice like.",
+			highlights: [
+				"Built full feature sets for web using MERN with TS, GraphQL, MaterialUI",
+			],
+		},
+		{
 			company: "FlipGive.com",
 			position: "React & React Native Developer",
 			website: "https://www.flipgive.com",
 			startDate: `${new Date(2021, 5, 15)}`,
-			endDate: `${new Date()}`,
+			endDate: `${new Date(2021, 11, 23)}`,
 			isCodeRelated: true,
 			summary:
 				"Online Shopping cashback web and mobile app focused on team and organizational fundraising.",
