@@ -301,7 +301,7 @@ const RESUME = {
 	],
 	interests: [
 		{
-			keywords: ["Cycling", "Cooking", "Basketball - Go Raptors!"],
+			keywords: ["Cycling", "Sailing", "Cooking", "Basketball - Go Raptors!"],
 		},
 	],
 	caseStudy: [
