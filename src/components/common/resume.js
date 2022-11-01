@@ -8,7 +8,7 @@ const RESUME = {
 		phone: "(416) 799-1791",
 		website: "https://www.kjlee.ca",
 		summary:
-			"A naturally curious former Chef and Cafe Manager, Joe and his curiosity is now focused on using TS/React to build better web sites and mobile apps. You can find him in his offline time playing basketball, being a better sailor, and fiddling with his sous-vide cooker.",
+			"A naturally curious former Chef and Cafe Manager, Joe and his curiosity are now focused on using TS/React to build better web sites and mobile apps. You can find him in his offline time playing basketball, being a better sailor, and fiddling with his sous-vide cooker.",
 		location: {
 			address: "123 EmailMe St",
 			postalCode: "CT 06405",
