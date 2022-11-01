@@ -40,7 +40,7 @@ const RESUME = {
 			summary:
 				"Making websites look real nice like.",
 			highlights: [
-				"Built full feature sets for web using MERN with TS, GraphQL, MaterialUI",
+				"Built full feature sets for web using MERN with TS/React, GraphQL, MUI, MongoDB, Jest, Playwright",
 			],
 		},
 		{
