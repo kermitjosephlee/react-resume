@@ -275,7 +275,8 @@ const RESUME = {
 		keywords: [
 			"React",
 			"ReactNative",
-			"GraphQL/Apollo",
+			"GraphQL",
+			"Apollo",
 			"Typescript",
 			"Javascript",
 			"Ruby on Rails",
@@ -286,6 +287,10 @@ const RESUME = {
 			"NodeJS",
 			"Sass",
 			"BootStrap",
+			"Tailwind",
+			"Jest",
+			"Playwright",
+			"MongoDB",
 		],
 	},
 	languages: [
