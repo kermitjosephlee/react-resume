@@ -5,7 +5,7 @@ const RESUME = {
 		picture:
 			"https://avatars.githubusercontent.com/u/37561135?s=400&u=51704ccfc708e3b25c4fa2a05809df0cda88e5a3&v=4",
 		email: "kermitjosephlee@gmail.com",
-		phone: "(416) 799-1791",
+		phone: "(two-zero-three) ate-one-sev3n sik-0-seben-six",
 		website: "https://www.kjlee.ca",
 		summary:
 			"A naturally curious former Chef and Cafe Manager, Joe and his curiosity are now focused on using TS/React to build better web sites and mobile apps. You can find him in his offline time playing basketball, being a better sailor, and fiddling with his sous-vide cooker.",
