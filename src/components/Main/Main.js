@@ -4,7 +4,7 @@ import { ResumeContext } from "../contexts/ResumeContext";
 
 import {
 	About,
-	CaseStudy,
+	// CaseStudy,
 	Contact,
 	Education,
 	Header,
