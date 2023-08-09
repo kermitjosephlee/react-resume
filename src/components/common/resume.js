@@ -271,7 +271,7 @@ const RESUME = {
 	],
 	skills: {
 		name: "Web Development",
-		level: "Intermediate",
+		level: "Mid-Senior",
 		keywords: [
 			"React",
 			"ReactNative",
