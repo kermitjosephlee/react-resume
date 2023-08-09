@@ -15,6 +15,7 @@ const RESUME = {
 			city: "Branford",
 			countryCode: "US",
 			region: "Connecticut",
+			timeZone: "Eastern Time - New York"
 		},
 		profiles: [
 			{
