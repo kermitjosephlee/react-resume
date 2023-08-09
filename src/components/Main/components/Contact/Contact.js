@@ -5,7 +5,7 @@ import "../Section/Section.css";
 
 export function Contact() {
 	const {
-		basics: { phone, region, timeZone, website },
+		basics: { phone, website, location: { timeZone, region } },
 	} = useContext(ResumeContext);
 
 	return (
