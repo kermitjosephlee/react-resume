@@ -8,7 +8,7 @@ const RESUME = {
 		phone: "(two-zero-three) ate-one-sev3n sik-0-seben-six",
 		website: "https://www.kjlee.ca",
 		summary:
-			"A naturally curious former Chef and Cafe Manager, Joe and his curiosity are now focused on using TS/React to build better web sites and mobile apps. You can find him in his offline time playing basketball, being a better sailor, and fiddling with his sous-vide cooker.",
+			"TS/React Front-end focused Web Developer by day, generally curious tinkerer by night, sailing enthusiast on the weekends. Loves making user experiences better.",
 		location: {
 			address: "123 EmailMe St",
 			postalCode: "CT 06405",
@@ -38,9 +38,12 @@ const RESUME = {
 			endDate: `${new Date()}`,
 			isCodeRelated: true,
 			summary:
-				"Making websites look real nice like.",
+				"Collarborating with SaaS app client to build and enhance their product for Fortune 500 users",
 			highlights: [
 				"Built full feature sets for web using MERN with TS/React, GraphQL, MUI, MongoDB, Jest, Playwright",
+				"Iterating quickly to build new feature sets as per client requests",
+				"Closely collaborating with Design and Product teams",
+				"Expanding unit and E2E testing suites for better code durability"
 			],
 		},
 		{
