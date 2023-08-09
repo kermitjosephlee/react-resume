@@ -13,14 +13,15 @@ import {
 	Profiles,
 	Projects,
 	Skills,
-	Switcher,
+	// Switcher,
 	Volunteer,
 	Work,
 } from "./components";
 import "./Main.css";
 
 export default function Main() {
-	const [showResume, setShowResume] = useState(true);
+	// const [showResume, setShowResume] = useState(true);
+	const showResume = true;
 	const [isJson, setIsJson] = useState(false);
 	const resume = useContext(ResumeContext);
 	const { isDarkMode } = useContext(DarkContext);
@@ -53,7 +54,7 @@ export default function Main() {
 					<Interests />
 				</>
 			)}
-			{!showResume && <CaseStudy />}
+			{/* {!showResume && <CaseStudy />} */}
 			{isJson && (
 				<div className="pre">
 					<pre>{JSON.stringify(resume, null, 2)}</pre>
