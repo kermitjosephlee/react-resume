@@ -32,13 +32,13 @@ export default function Main() {
 	return (
 		<div className={isDarkMode ? "main dark" : "main"}>
 			<Header showJson={showJson} />
-			{!isJson && (
+			{/* {!isJson && (
 				<Switcher
 					showResume={showResume}
 					setShowResume={setShowResume}
 					showJson={showJson}
 				/>
-			)}
+			)} */}
 			{!isJson && showResume && (
 				<>
 					<Contact />
