@@ -5,7 +5,7 @@ import "../Section/Section.css";
 
 export function Contact() {
 	const {
-		basics: { phone, website },
+		basics: { phone, region, timeZone, website },
 	} = useContext(ResumeContext);
 
 	return (
@@ -19,6 +19,8 @@ export function Contact() {
 				<div className="contact-detail">
 					<a href={website}>{website}</a>
 				</div>
+				<div className="contact-detail">{region}</div>
+				<div className="contact-detail">{timeZone}</div>
 			</div>
 		</div>
 	);
