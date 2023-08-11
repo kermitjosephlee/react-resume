@@ -39,7 +39,7 @@ const RESUME = {
 			endDate: `${new Date()}`,
 			isCodeRelated: true,
 			summary:
-				"Collarborating with SaaS app client to build and enhance their product for Fortune 500 users",
+				"Collaborating with SaaS app client to build and enhance their product for Fortune 500 users",
 			highlights: [
 				"Built full feature sets for web using MERN with TS/React, GraphQL, MUI, MongoDB, Jest, Playwright",
 				"Iterating quickly to build new feature sets as per client requests",
