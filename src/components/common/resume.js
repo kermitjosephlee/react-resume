@@ -24,6 +24,11 @@ const RESUME = {
 				url: "https://github.com/kermitjosephlee",
 			},
 			{
+				network: "GitHub",
+				username: "gl-kermitjosephlee",
+				url: "https://github.com/gl-kermitjosephlee",
+			},
+			{
 				network: "LinkedIn",
 				username: "kermitjosephlee",
 				url: "https://www.linkedin.com/in/kermit-joseph-lee-5524261a/",
@@ -44,7 +49,8 @@ const RESUME = {
 				"Built full feature sets for web using MERN with TS/React, GraphQL, MUI, MongoDB, Jest, Playwright",
 				"Iterating quickly to build new feature sets as per client requests",
 				"Closely collaborating with Design and Product teams",
-				"Expanding unit and E2E testing suites for better code durability"
+				"Expanding unit and E2E testing suites for better code durability",
+				"Created fraud detection graph-visualization app using Neo4J, Regraph"
 			],
 		},
 		{
@@ -224,6 +230,24 @@ const RESUME = {
 
 	volunteer: [
 		{
+			organization: "Branford Microfund",
+			position: "Volunteer",
+			website: "https://www.branfordmicrofund.org/",
+			startDate: "2024-01-24",
+			endDate: `${new Date()}`,
+			summary:
+				"A community group that helps local residents with short-term interest-free bridge loans",
+		},
+		{
+			organization: "Friends of Blackstone Library",
+			position: "Volunteer",
+			website: "https://www.blackstonelibrary.org/friends/",
+			startDate: "2024-01-15",
+			endDate: `${new Date()}`,
+			summary:
+				"A auxillary group of residents who support the Branford's local Blackstone Library",
+		},
+		{
 			organization: "Bike Sauce",
 			position: "Volunteer Coordinator",
 			website: "http://bikesauce.org/",
@@ -295,6 +319,8 @@ const RESUME = {
 			"Jest",
 			"Playwright",
 			"MongoDB",
+			"Neo4J",
+			"Regraph"
 		],
 	},
 	languages: [
