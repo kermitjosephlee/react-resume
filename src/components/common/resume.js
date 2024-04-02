@@ -41,7 +41,7 @@ const RESUME = {
 			position: "Front-End Developer",
 			website: "https://www.goodlabs.studio",
 			startDate: `${new Date(2021, 11, 24)}`,
-			endDate: `${new Date()}`,
+			endDate: `${new Date(2024, 2, 31)}`,
 			isCodeRelated: true,
 			summary:
 				"Collaborating with SaaS app client to build and enhance their product for Fortune 500 users",
