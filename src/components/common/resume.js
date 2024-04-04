@@ -11,7 +11,7 @@ const RESUME = {
 			"TS/React Front-end focused Web Developer by day, generally curious tinkerer by night, sailing enthusiast on the weekends. Loves making user experiences better.",
 		location: {
 			address: "43 2nd Ave",
-			postalCode: "CT 06405",
+			postalCode: "06405",
 			city: "Branford",
 			countryCode: "US",
 			region: "Connecticut",
