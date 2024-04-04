@@ -44,12 +44,12 @@ export default function Main() {
 				<>
 					<Contact />
 					<About />
+					<Skills />
 					<Profiles />
 					<Work />
 					<Projects />
 					<Education />
 					<Volunteer />
-					<Skills />
 					<Languages />
 					<Interests />
 				</>
