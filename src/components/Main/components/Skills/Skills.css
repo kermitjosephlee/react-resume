@@ -8,15 +8,14 @@
 }
 
 .skills-list-item {
-  font-size: 14pt;
+  font-size: 12pt;
   text-align: left;
   line-height: 1.7em;
-  padding: 0.5em 1em;
+  padding-right: 0.5em;
 }
 
 @media (max-width: 480px) {
   .skills-list-item {
-    font-size: 12pt;
     line-height: 1.5em;
   }
 }
