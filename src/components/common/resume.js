@@ -20,17 +20,17 @@ const RESUME = {
 		profiles: [
 			{
 				network: "GitHub",
-				username: "kermitjosephlee",
+				username: "github.com/kermitjosephlee",
 				url: "https://github.com/kermitjosephlee",
 			},
 			{
 				network: "GitHub",
-				username: "gl-kermitjosephlee",
+				username: "github.com/gl-kermitjosephlee",
 				url: "https://github.com/gl-kermitjosephlee",
 			},
 			{
 				network: "LinkedIn",
-				username: "kermitjosephlee",
+				username: "linkedin.com/in/kermit-joseph-lee-5524261a/",
 				url: "https://www.linkedin.com/in/kermit-joseph-lee-5524261a/",
 			},
 		],
