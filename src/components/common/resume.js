@@ -5,7 +5,7 @@ const RESUME = {
 		picture:
 			"https://avatars.githubusercontent.com/u/37561135?s=400&u=51704ccfc708e3b25c4fa2a05809df0cda88e5a3&v=4",
 		email: "kermitjosephlee@gmail.com",
-		phone: "(two-zero-three) ate-one-sev3n sik-0-seben-six",
+		phone: "203 817 6076",
 		website: "https://www.kermitjosephlee.com",
 		summary:
 			"TS/React Front-end focused Web Developer by day, generally curious tinkerer by night, sailing enthusiast on the weekends. Loves making user experiences better.",
