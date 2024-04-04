@@ -10,7 +10,7 @@ const RESUME = {
 		summary:
 			"TS/React Front-end focused Web Developer by day, generally curious tinkerer by night, sailing enthusiast on the weekends. Loves making user experiences better.",
 		location: {
-			address: "123 EmailMe St",
+			address: "43 2nd Ave",
 			postalCode: "CT 06405",
 			city: "Branford",
 			countryCode: "US",
