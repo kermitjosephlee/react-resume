@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { ResumeContext } from "../../../contexts/ResumeContext";
 import "./Profiles.css";
 import "../Section/Section.css";
@@ -18,8 +19,8 @@ export function Profiles() {
 					<div key={profile.network} className="profile-container">
 
 						<div className="profile-title">
-							{profile.network === "GitHub" && <FontAwesomeIcon icon="fa-brands fa-github" />}
-							{profile.network === "LinkedIn" && <FontAwesomeIcon icon="fa-brands fa-linkedin" />}
+							{profile.network === "GitHub" && <FontAwesomeIcon icon={faGithub} />}
+							{profile.network === "LinkedIn" && <FontAwesomeIcon icon={faLinkedin} />}
 						</div>
 						<div>
 							<a href={profile.url}>{profile.username}</a>
