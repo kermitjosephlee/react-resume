@@ -1,10 +1,11 @@
-import React, {useState} from "react"
-import { intervalMaker } from "../../../../common/intervalMaker"
+import React from "react"
+// import { intervalMaker } from "../../../../common/intervalMaker"
 import "../../Work/components/WorkEntry/WorkEntry.css"
 
 export function EducationEntry ({educationEntry}){
-  const [isUnixTime, setIsUnitTime] = useState(false)
-  const { institution, area, studyType, startDate, endDate} = educationEntry
+  // const [isUnixTime, setIsUnitTime] = useState(false)
+  // const { institution, area, studyType, startDate, endDate} = educationEntry
+  const { institution, area, studyType} = educationEntry
 
   return (
     <div className="work-entry-container">
@@ -16,9 +17,9 @@ export function EducationEntry ({educationEntry}){
         <div className="website">
           {studyType}
         </div>       
-        <div className="interval" onClick={() => setIsUnitTime(!isUnixTime)}>
+        {/* <div className="interval" onClick={() => setIsUnitTime(!isUnixTime)}>
           {intervalMaker(startDate, endDate, isUnixTime)}
-        </div>
+        </div> */}
       </div>
     </div>
   )
