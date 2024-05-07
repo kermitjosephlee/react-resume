@@ -1,0 +1,368 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Kermit Joseph Lee",
+    "label": "Full Stack Developer | React, Typescript, GraphQL, Node",
+    "image": "",
+    "email": "kermitjosephlee@gmail.com",
+    "phone": "",
+    "url": "",
+    "summary": "As a Full Stack Developer at GoodLabs Studio, I create well-tested and visually appealing client-facing front-end and supporting back-end code for Sounding Board, an internal coaching SaaS app for leading Fortune 500 tech companies. I use React, GraphQL, Ruby on Rails, and other cutting-edge technologies to deliver high-quality and scalable solutions that meet the needs of diverse and demanding clients.\n\nWith over three years of experience in web development, I have a strong foundation in the fundamentals of coding, as well as a passion for learning new skills and exploring new challenges. I have also been an Education Mentor at Lighthouse Labs since 2018, where I help new coders with assignments and projects, and share my knowledge and insights from the industry. Additionally, I have a unique background in culinary arts and chemistry, which gives me a creative and analytical approach to problem-solving and product development.",
+    "location": {
+      "countryCode": "US",
+      "address": "United States"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "kermit-joseph-lee-5524261a",
+        "url": "https://www.linkedin.com/in/kermit-joseph-lee-5524261a/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "GoodLabs Studio",
+      "position": "Full Stack Developer",
+      "startDate": "2021-12-31",
+      "endDate": "2024-03-31",
+      "highlights": [],
+      "summary": "Under Contract to Sounding Board - an internal coaching SaaS app for leading Fortune 500 tech companies. Responsible for creating well-tested and visually appealing client-facing front-end and supporting back-end code.\nBuilt on Typescript, React, GraphQL, Node, MongoDB, Docker, GCP",
+      "url": "https://www.linkedin.com/company/goodlabs-studio/",
+      "location": "Toronto, Ontario, Canada"
+    },
+    {
+      "name": "Lighthouse Labs",
+      "position": "Education Mentor",
+      "startDate": "2020-09-30",
+      "endDate": "2022-02-28",
+      "highlights": [],
+      "summary": "Helping new coders at bootcamp with assignments and projects\nKept grounded by fundamentals and giving back to new coders\nAbility to walk through novice code, debug, and explain its workings",
+      "url": "https://www.linkedin.com/school/lighthouse-labs/",
+      "location": "Toronto, Ontario, Canada"
+    },
+    {
+      "name": "FlipGive",
+      "position": "Software Developer",
+      "startDate": "2021-06-30",
+      "endDate": "2021-12-31",
+      "highlights": [],
+      "summary": "- Online Shopping cashback web and mobile app focused on team and organizational fundraising.\n- Working on building rich feature sets in ever expanding software suite of applications\n- Increased player participation by 100% by rebuilding player management pages\n- Built full feature sets for both web and mobile with React and React Native through GraphQL on Ruby on Rails",
+      "url": "https://www.linkedin.com/company/flipgive/",
+      "location": "Toronto, Ontario, Canada"
+    },
+    {
+      "name": "Knit People",
+      "position": "Software Developer",
+      "startDate": "2021-03-31",
+      "endDate": "2021-05-31",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/knitpeople/",
+      "location": "Toronto, Ontario, Canada"
+    },
+    {
+      "name": "FlipGive",
+      "position": "React & ReactNatve Developer",
+      "startDate": "2019-10-31",
+      "endDate": "2021-02-28",
+      "highlights": [],
+      "summary": "- Online Shopping cashback web and mobile app focused on team and organizational fundraising.\n- Working on building rich feature sets in ever expanding software suite of applications\n- Increased player participation by 100% by rebuilding player management pages\n- Built full feature sets for both web and mobile with React and React Native through GraphQL on Ruby on Rails",
+      "url": "https://www.linkedin.com/company/flipgive/",
+      "location": "Toronto, Canada Area"
+    },
+    {
+      "name": "Acme Anvil and Bird Seed Company",
+      "position": "Freelance Front-End Developer",
+      "startDate": "2018-10-31",
+      "endDate": "2020-09-30",
+      "highlights": [],
+      "summary": "Front End Development for Private Client to build a reactive and interactive Jeopardy clone web app. Using React, React Router, Pose, Redux over an Elixir and Postgres back-end.",
+      "url": "",
+      "location": "Toronto, ON"
+    },
+    {
+      "name": "Edible Balloons by Flask & Beaker",
+      "position": "Founder and Principal",
+      "startDate": "2016-04-30",
+      "endDate": "2019-10-31",
+      "highlights": [],
+      "summary": "Our floating soft candy balloons are created before your eyes, to surprise and delight fun lovers of all ages. They can be flavoured (and coloured) in infinite ways, and are the perfectly elegant and fun novelty to augment your event or experiential space.",
+      "url": "",
+      "location": "Toronto, Ontario, Canada"
+    },
+    {
+      "name": "PlayLine",
+      "position": "Web Developer",
+      "startDate": "2019-01-31",
+      "endDate": "2019-09-30",
+      "highlights": [],
+      "url": "",
+      "location": "Toronto"
+    },
+    {
+      "name": "Louie Craft Coffee",
+      "position": "Manager",
+      "startDate": "2016-04-30",
+      "endDate": "2018-06-30",
+      "highlights": [],
+      "url": "",
+      "location": "Toronto"
+    },
+    {
+      "name": "Future Food Studio",
+      "position": "Chef Scientist",
+      "startDate": "2015-04-30",
+      "endDate": "2016-04-30",
+      "highlights": [],
+      "summary": "- Research & Development\n- Product Testing\n- SOP Writing and Development\n- Client Relations",
+      "url": "https://www.linkedin.com/company/future-food-studio/"
+    },
+    {
+      "name": "Starbucks",
+      "position": "Store Manager",
+      "startDate": "2011-09-30",
+      "endDate": "2014-08-31",
+      "highlights": [],
+      "summary": "•\tImplemented evolving standards and ensured the proper implementation of new or highlighted initiatives including line hosting, driving peak, suggestive selling, coffee cadence. \n•\tBusiness Planning including but not limited to scheduling, ordering, adjusting targets and tracking sales, developing partners. Created strategic and operational plans for the work group, managing execution, and measuring results.\n•\tIn charge of Automated Labour Scheduling, Monthly Status Report, Quarterly Business Review, cash and inventory management.\n•\tAnalyzes financial reports to identify and address trends and issues in store performance.\n•\tPromoted the culture, values, and mission of Starbucks to partners and customers.",
+      "url": "https://www.linkedin.com/company/starbucks/"
+    },
+    {
+      "name": "Starbucks Coffee Canada",
+      "position": "Supervisor",
+      "startDate": "2010-03-31",
+      "endDate": "2011-09-30",
+      "highlights": [],
+      "summary": "•\tDeveloped skills to coach-in-the-moment and effective deployment.\n•\tLed team in Canada-wide highest-volume Frappuccino happy hours.",
+      "url": "",
+      "location": "Toronto, ON"
+    },
+    {
+      "name": "Home",
+      "position": "Primary Caregiver - Elder Care",
+      "startDate": "2008-06-30",
+      "endDate": "2010-03-31",
+      "highlights": [],
+      "url": "",
+      "location": "Toronto"
+    },
+    {
+      "name": "No. 9 Park",
+      "position": "Cook",
+      "startDate": "2007-07-31",
+      "endDate": "2008-06-30",
+      "highlights": [],
+      "summary": "- Learned and developed modern cooking techniques – sous vide, constant temperature, emulsions, and suspensions.\n- Executed new product offerings in a high pressure, timely fashion.",
+      "url": "",
+      "location": "Boston, MA"
+    },
+    {
+      "name": "Restaurant Le Club Chasse et Peche",
+      "position": "Line Cook",
+      "startDate": "2005-09-30",
+      "endDate": "2007-07-31",
+      "highlights": [],
+      "summary": "•\tWorked with a sense of urgency in a fast-paced environment to high standards.\n•\tDeveloped, enhanced and formulated new and existing food products from concept approval to development and launch. Member of cross-functional team.\n•\tAccurately documented recipes and results of pilot trials. Maintained proper documentation.\n•\tFormulated and developed new products to match business, customer and cost guidelines.\n•\tParticipated in product sensory trials using internal panels.",
+      "url": ""
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Bike Sauce",
+      "position": "Volunteer",
+      "startDate": "2010-02-28",
+      "endDate": "",
+      "summary": "Bike Sauce is a Do-It-Yourself Pay-What-You-Can bike workshop where volunteers empower people to fix bicycles.",
+      "highlights": [],
+      "url": ""
+    },
+    {
+      "organization": "The Ride to Conquer Cancer",
+      "position": "Volunteer Crew",
+      "startDate": "2010-06-30",
+      "endDate": "",
+      "summary": null,
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/3960385"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Lighthouse Labs",
+      "area": "Web Development - Full Stack",
+      "studyType": "Diploma",
+      "startDate": "2018-12-31",
+      "endDate": "2018-12-31",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Le Cordon Bleu Ottawa",
+      "area": "Cuilinary",
+      "studyType": "Grand Diplome",
+      "startDate": "2005-12-31",
+      "endDate": "2006-12-31",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "McGill University",
+      "area": "Chemistry",
+      "studyType": "B.Sc.",
+      "startDate": "1997-12-31",
+      "endDate": "2003-12-31",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [],
+  "publications": [
+    {
+      "name": "Canadian Chemical News",
+      "publisher": null,
+      "releaseDate": "",
+      "summary": "",
+      "url": "https://files.acrobat.com/a/preview/f07ac365-d2d9-49a9-b052-8de159a65d33"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Data Visualization",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Mapbox",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Unit Testing",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Functional Programming",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Project Management",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Figma (Software)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Organic Chemistry",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JavaScript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Ruby on Rails",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "GraphQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Food Science",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "React Native",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Chemistry",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Cascading Style Sheets (CSS)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Food Quality",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "React.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Customer Service",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Food Safety",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Git",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Cooking",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Science",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Food",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Strategic Planning",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Training",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "TypeScript",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native Speaker"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": [],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
+}
